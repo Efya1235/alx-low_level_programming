@@ -4,7 +4,7 @@
 
 /**
  *main - Entry point
- *Description - 'printing last digit of random number
+ *Description - 'printing last digit number'
  *Return: always 0 (sucess)
  */
 int main(void)
@@ -26,4 +26,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastg);
 	}
+
 	return (0);
