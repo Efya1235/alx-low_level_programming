@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description - 'putchar'
- * Return: always 0 (taskcomplete)
+ * Description - 'printing single digits'
+ * Return: always 0 (sucess)
  */
 
 int main(void)
@@ -16,3 +16,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
