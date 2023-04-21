@@ -4,7 +4,7 @@
 
 /**
  *main - Entry point
- *Description - 'printing last digit number'
+ *Description - 'last digit'
  *Return: always 0 (sucess)
  */
 int main(void)
@@ -28,3 +28,4 @@ int main(void)
 	}
 
 	return (0);
+}
