@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * _isalpha - shows alphabetic characters
- * letter another cases, shows 0
- *
- * @c: character to check
- *
- * Return 1 if c is a letter, otherwise 0.
- */
-int _isalpha(int c);
+  * _isalpha - Entry poin
+  * Description - 'checks whether c is lowercaseed or uppercased letter'
+  * @c: The character to be checked
+  * Return: 1 if character is lowercased or upper cased, 0 if otherwise
+  */
+
+int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
@@ -18,5 +17,4 @@ int _isalpha(int c);
 	{
 		return (0);
 	}
-	_putchar('\n');
 }
