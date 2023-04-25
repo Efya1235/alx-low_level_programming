@@ -1,22 +1,3 @@
-BraveStarShalom
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code view
-alx-low_level_programming/0x02-functions_nested_loops/104-fibonacci.c
-@BraveStarShalom
-BraveStarShalom 98 fabonacci
- 1 contributor
-44 lines (39 sloc)  765 Bytes
 #include <stdio.h>
 
 /**
@@ -61,4 +42,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
