@@ -2,12 +2,17 @@
 /**
  * _puts - writes a function that prints a string, followed by a new line
  * @str: string to print
+ * Return: string and new line
  */
+
 void _puts(char *str)
 {
-	while (*str != '\0')
+	int a = 0;
+
+	while (str[a])
 	{
-		_putchar(*str++);
+		_putchar(str[a]);
+		a++;
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
