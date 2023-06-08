@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * modify_bit_value - modifies the value of a bit at a given index.
- * by setting it to 0.
- * @num_ptr: pointer to an unsigned long int.
- * @bit_index: index of the bit.
+ * clear_bit - sets the value of a bit to 0.
+ * at a given index.
+ * @n: pointer of an unsigned long int.
+ * @index: index of the bit.
  *
- * Return: 1 if the modification was successful, -1 otherwise.
+ * Return: 1 if it worked, -1 if it didn't.
  */
-int modify_bit_value(unsigned long int *num_ptr, unsigned int bit_index)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int mask;
+	unsigned int m;
 
-	if (bit_index > 63)
+	if (index > 63)
 		return (-1);
 
-	mask = 1 << bit_index;
+	m = 1 << index;
 
-	if (*num_ptr & mask)
-		*num_ptr ^= mask;
+	if (*n & m)
+		*n ^= m;
 
 	return (1);
 }
