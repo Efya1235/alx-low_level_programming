@@ -6,8 +6,8 @@ void print_binary(unsigned long int n);
 int _putchar(char c);
 int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
-int modify_bit_value(unsigned long int *n, unsigned int index);
-unsigned int count_flipped_bits(unsigned long int n, unsigned long int m);
-int determine_endianness(void);
+int clear_bit(unsigned long int *n, unsigned int index);
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
+int get_endianness(void);
 
 #endif
