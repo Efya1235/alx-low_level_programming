@@ -8,6 +8,6 @@ int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 int modify_bit_value(unsigned long int *n, unsigned int index);
 unsigned int count_flipped_bits(unsigned long int n, unsigned long int m);
-int get_endianness(void);
+int determine_endianness(void);
 
 #endif
